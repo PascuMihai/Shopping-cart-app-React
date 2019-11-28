@@ -7,7 +7,7 @@ import "./App.css";
 export class App extends Component {
   state = {
     counters: [
-      { id: uuid.v4(), value: 4 },
+      { id: uuid.v4(), value: 0 },
       { id: uuid.v4(), value: 0 },
       { id: uuid.v4(), value: 0 },
       { id: uuid.v4(), value: 0 }
